@@ -5,7 +5,7 @@ import json
 app = Flask(__name__, template_folder='templates')
 app.config['SECRET_KEY'] = 'una-clave-secreta-000001'
 
-token = '0358ee5e99661f9b6c4d9f01f071b7f93fb2054e'
+token = '5db413090338c538aca04cd006aad002a16ea22e'
 headers = {
         "Authorization": f"Token {token}",
         "Content-Type": "application/json"
